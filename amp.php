@@ -205,7 +205,7 @@ function amp_rewrite_rules( $rules ) {
 
     $newrules = array();
 
-    $newrules["amp/"] = 'index.php?amp=1';
+    $newrules["^amp/?$"] = 'index.php?amp=1';
 
     foreach($rules as $key => $value) {
         if (preg_match('/^('.amp_get_category_base().'|'.amp_get_tag_base().'|author)\//',$key)) $newrules["amp/".$key] = $value.'&amp=1';
