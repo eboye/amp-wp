@@ -25,7 +25,7 @@ Follow along with or contribute to the development of this plugin at https://git
 
 1. Upload the folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. You may need to refresh your permalinks by going to `Settings > Permalinks` and tapping the `Save` button. 
+1. You may need to refresh your permalinks by going to `Settings > Permalinks` and tapping the `Save` button.
 
 == Frequently Asked Questions ==
 
@@ -111,14 +111,13 @@ A wise green Yoda once said, "Patience you must have, my young padawan." We're w
 
 = 0.3.1 (Feb 24, 2016) =
 
-* Allow custom query var (props vaurdan).
-* Fix AMP URLs for non-pretty permalinks (props rakuishi).
+* Fix AMP URLs for non-pretty permalinks.
 * Fix for password-protected posts.
 * Fix dimension extraction for schema-less or relative image URLs.
 * Better fallback for images with no dimensions.
-* Validation fixes for `a` tags (props kraftbj).
+* Validation fixes for `a` tags.
 * Updated AMP boilerplate.
-* Allow `on` tags for elements (props Steven Evatt).
+* Allow `on` tags for elements.
 * Prefixed class names.
 
 = 0.3 (Feb 18, 2016) =
