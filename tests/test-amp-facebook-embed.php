@@ -27,10 +27,6 @@ class AMP_Facebook_Embed_Test extends WP_UnitTestCase {
 				'https://www.facebook.com/photo.php?fbid=10102533316889441&set=a.529237706231.2034669.4&type=3&theater' . PHP_EOL,
 				'<p><amp-facebook data-href="https://www.facebook.com/photo.php?fbid=10102533316889441&amp;set=a.529237706231.2034669.4&amp;type=3&amp;theater" layout="responsive" width="600" height="400"></amp-facebook></p>' . PHP_EOL
 			),
-			'notes_url' => array(
-				'https://www.facebook.com/zuck/videos/10102509264909801/' . PHP_EOL,
-				'<p><amp-facebook data-href="https://www.facebook.com/zuck/videos/10102509264909801/" layout="responsive" width="600" height="400"></amp-facebook></p>' . PHP_EOL
-			),
 
 
 		);
